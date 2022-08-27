@@ -48,6 +48,14 @@ html {
   color: var(--very-dark-cyan);
 }
 
+.first-card {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.last-card {
+  border-radius: 0 0 1rem 1rem;
+}
+
 body {
   /* font-family: 'Big Shoulders Display', cursive; */
   /* font-family: 'Lexend Deca', sans-serif; */
@@ -135,6 +143,14 @@ footer {
 }
 
 @media (min-width: 900px) {
+  .first-card {
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .last-card {
+    border-radius: 0 1rem 1rem 0;
+  }
+
   body {
     height: 100vh;
   }
