@@ -48,14 +48,6 @@ html {
   color: var(--very-dark-cyan);
 }
 
-.first-card {
-  border-radius: 1rem 1rem 0 0;
-}
-
-.last-card {
-  border-radius: 0 0 1rem 1rem;
-}
-
 body {
   /* font-family: 'Big Shoulders Display', cursive; */
   /* font-family: 'Lexend Deca', sans-serif; */
@@ -74,6 +66,14 @@ main {
   justify-content: center;
   align-items: center;
   margin: 8rem 0;
+}
+
+.first-card {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.last-card {
+  border-radius: 0 0 1rem 1rem;
 }
 
 .card {
